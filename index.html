@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=0.5, user-scalable=no">
+		<link href='http://fonts.googleapis.com/css?family=Julius Sans One:400;300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet" type='text/css'>
+		<title>Young-Sup Lee</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	    <script type="text/javascript" src="js/jquery.wheelmenu.js"></script>
+	    <script type="text/javascript" src="js/app.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="shortcut icon" href="/css/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+    <div class=welcome><h1 style="font-weight: normal;">What's up</h1></div>
+    <div class=welcome id=clickButton>Click</div>
+		<div class="container">
+			<img href="#wheel" class="wheel-button" src="css/giphy.gif">
+		</div><!-- Container -->
+		<div>
+	      <ul id="wheel">
+			    <li class="item"><a></a></li>
+	        <li class="item"><a></a></li>
+          <li class="item"><a></a></li>
+          <li class="item" id=resume><a href="download/Resume3.pdf" target="_blank">RESUME</a></li>
+          <li class="item" id=contact>CONTACT</li>
+	        <li class="item" id=academic>Experience</li>
+	        <li class="item" id=about>ABOUT</li>
+	        <li class="item" id=projects>PROJECTS</li>
+          <li class="item" id=gallery>GALLERY</li>
+	      </ul>
+	     </div>
+      <button class=slidebutton id=prev style="left:10px; position:absolute;"><img src=css/back.png></button>
+      <button class=slidebutton id=next style="right:10px; position:absolute;"><img src=css/next-1.png></button>
+			<div id="aboutModal" class="modal">
+			<!-- Modal content -->
+  				<div class="modal-content" id=0>
+      			<span class="close">x</span>
+    			<p class=title>ABOUT</p>
+    			<ul>
+    			<li style="width: 350px;"><img src="css/profile.jpg" style="width:80%; border-radius:2%"></li>
+    			<li style="text-align: left; width:60%;">
+    				<h2 style="font-size:1.3em; font-weight: bold; margin-top:0px">Young-Sup Timothy Lee</h2>
+    				<p>U.S. Citizen</p>
+    				<p>Stony Brook University B.S. Computer Science</p>
+            <p style="font-family: 'Raleway', sans-serif; font-weight:lighter;" >Hello, my name is Young-Sup Lee. I am a currently pursuing Computer Science Major and AMS as a minor. I enjoy coding and experiencing new things. I also enoying drawing and painting in free time. Hope you can learn more about me through my website!</p>
+    				<h2 style="font-size:1em; font-weight: bold; margin-bottom:0px">Computer   Skills</h2>
+    				<ul class=skills>
+    					<li class=skill-img><img src="css/java-logo-vector.png"></li>
+    					<li class=skill-img><img src="css/HTML5_Logo_512.png"></li>
+    					<li class=skill-img><img src="css/css3-logo.png"></li>
+    					<li class=skill-img><img src="css/js4560_450.png"></li>
+    					<li class=skill-img2><img src="css/MySQL.svg.png"></li>
+    				</ul>
+    				<ul class=skills>
+              <li class=skill-img2><img src="css/php.png"></li>
+    					<li class=skill-img2><img src="css/visual-studio-2012-download.png"></li>
+    					<li class=skill-img><img src="css/photoshop-1065296_1280.jpg"></li>
+    				</ul>
+       			</li>
+       			</ul>
+  				</div>
+			</div>
+			<div id="experienceModal" class="modal">
+			<!-- Modal content -->
+  				<div class="modal-content" id=1>
+  				<span></span>
+      			<span class="close">x</span>
+    			<p class=title>Experiences </p>
+          <h3>Programming Experiences</h3>
+    			<ul class=company>
+    				<li>
+    				<div class=company-img><img src="css/quality-enclosures-logo2(2).png"></div>
+    				<div class=company-title>Quality Enclosures, Inc.</div>
+    				<div class=company-descrip>
+    					July, 2015 - Sep, 2015<br>
+              Assistant Software Engineer<br>
+    				</div>
+    				</li>
+    				<li>
+    				<div class=company-img><img src="css/Buncee_Header_Logo.png"></div>
+    				<div class=company-title>Buncee LLC</div>
+    				<div class=company-descrip>
+    					Dec, 2015 - Present <br>
+              Developer Intern
+    				</div>
+    				</li>
+    			</ul>
+          <h3>Other Experiences</h3>
+          <ul>
+            <li>
+              <div class=company-title>Summer SAT Teaching position</div>
+              <div class=company-descrip>June, 2014 – August, 2014</div>
+            </li>
+            <li>
+              <div class=company-title>Treasurer <br>
+              Korean Christian Fellowship Club</div>
+              <div class=company-descrip>Sep, 2015 – May, 2016</div>
+            </li>
+          </ul>
+  				</div>
+			</div>
+			<div id="projectModal" class="modal">
+			<!-- Modal content -->
+  				<div class="modal-content" id=2>
+      			<span class="close">x</span>
+    			<p class=title>Projects</p>
+          <div class=projects style="text-align:left; padding-left:5%; padding-right:5%;">
+          <h2>Projects</h2>
+          <div class=projecttitle>Order Report Creator</div>
+          <div style="font-size:0.8em; font-family: 'Raleway', sans-serif; font-weight:lighter;">Program design to assist order and create report. Used Visual Basic to create the interface and integrated the Microsoft Access Database to load and update the orders and customer information</div>
+          <div class=projecttitle>Korean Christian Fellowship Club Website</div>
+          <div style="font-size:0.8em; font-family: 'Raleway', sans-serif; font-weight:lighter;">Webstie for a Stony Brook Club. Used html/css/javascript to create static website for the club to use. Backend and interactive features are in progress. <br><a href="http://sbukcf.com">sbukcf.com</a></div>
+          <h2>Projects in Progress</h2>
+          <div class="projecttitle">...</div>
+          </div>
+			</div>
+      </div>
+      <div id="galleryModal" class="modal">
+      <!-- Modal content -->
+          <div class="modal-content" id=3>
+            <span class="close">x</span>
+          <p class=title>Gallery</p>
+          <h3>Painting</h3>
+          <ul id=img>
+            <img class="myImg" id="1" src="css/painting(1).jpg">
+            <img class="myImg" id="5" src="css/painting(5).jpg">
+            <img class="myImg" id="6" src="css/painting(6).jpg">
+            <img class="myImg" id="7" src="css/painting(7).jpg">
+          </ul>
+          <ul id=img2>
+            <img class="myImg" id="4" src="css/painting(4).jpg">
+          </ul>
+          </div>
+          <div id="myModal" class="modalImg" style="overflow: scroll;">
+          <!-- The Close Button -->
+          <span class="closeimg"><img src="css/modalClose.png" style="margin:0px; height: 1.450em; width: 1.450em; color:white; "></span>
+          <!-- Modal Content (The Image) -->
+          <img id="modal-content">
+           </div>
+           </div>
+      </div>
+			<div id="contactModal" class="modal">
+			<!-- Modal content -->
+  				<div class="modal-content" id=4>
+      			<span class="close">x</span>
+    			<p class=title style="text-align:center;">Contact</p>
+    			<div>
+    			<p style="color:black;">EMAIL</p>
+    			<p>
+   				<a href="mailto:young-sup.lee@stonybrook.edu" target="_blank" style="text-decoration: none; color:black; font-family: 'Raleway', sans-serif;">young-sup.lee@stonybrook.edu</a>
+				</p>
+    			</div>
+      			<div style="width: auto">
+      			<ul style="list-style:none; height: auto; -webkit-padding-start: 0px;">
+      			<li><a href="https://www.linkedin.com/in/young-sup-lee-325436b2"><img src="css/linkedin.png" style="width:100px"></a></li>
+      			<li><a target="_blank" href="https://github.com/leetim25"><img src="css/GitHub.png" style="width:100px"></a></li>
+            <li><a target="_blank" ><img src="css/facebook.png" style="width:100px"></a></li>
+      			</ul>
+  				</div>
+			</div>
+	<script type="text/javascript">
+    	$(".wheel-button").wheelmenu("slow");
+  	</script>
+
+	</body>
+</html>
